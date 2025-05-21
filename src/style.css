@@ -1,11 +1,12 @@
 .bg-box {
   background-color: green;
-  background-image: url(../src/img/nature.webp), url(../src/img/donat.png),
-    url(../src/img/hedgehog.webp), url(../src/img/lamp.png),
-    url(../src/img/grass.png);
-  background-repeat: no-repeat, repeat-y, repeat, repeat-x, repeat;
+  background-image: url(../src/img/nature.webp), url(../src/img/grass.png),
+    url(../src/img/lamp.png), url(../src/img/hedgehog.webp),
+    url(../src/img/donat.png);
+  background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
 
-  background-position: center, left, right, top center, bottom center;
-  background-size: 500px, 10px, 10px, 25px, 55px;
-  max-width: 1600px;
+  background-position: center, bottom center, top center, left, right;
+  background-size: 500px, 170px, 34px, 25px, 25px;
+  max-width: 850px;
+  height: 500px;
 }
